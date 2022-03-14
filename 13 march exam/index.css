@@ -1,0 +1,130 @@
+body{
+    margin: 0px;
+    font-family:'Roboto', sans-serif;
+    background-color: rgb(11, 82, 4);
+}
+header{
+    text-align: center;
+    padding-top: 1rem;
+    border-bottom: 1px solid #063a6b;
+    height: 8vh;
+    background-image: url(https://images.pexels.com/photos/3783385/pexels-photo-3783385.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    box-shadow: 1px 2px rgb(19, 17, 17);
+}
+
+header > span{
+    float: left;
+    padding-left: 1rem;
+}
+
+header > input{
+    padding: 12px;
+    width: 30%;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.weather-card{
+    margin-top: 3rem;
+    text-align: start;
+    box-shadow:0px  2px 8px rgb(22, 20, 20) ;
+    border: 1px solid #0c4e99;
+    font-weight: bold;
+    background-image: url(https://images.pexels.com/photos/3783385/pexels-photo-3783385.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940); 
+}
+
+.weather-card > p{
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 0.5rem;    
+}
+
+.weather-card  > img{
+     display: block; 
+    height: 100px;
+    text-align: center;
+    background-position: center;
+    transform: translateY(-30%);
+    padding-left: 6rem;
+    padding-right: 3rem;
+}
+
+p:nth-child(7){
+    border-bottom: none;
+}
+
+p:first-child{
+    color: rgb(19, 200, 212);
+}
+
+.open_popup{
+    text-align: center;
+    position: fixed;
+    top: 10%;
+    left: 10%;
+    bottom: 10%;
+    right: 10%;
+    background-image: url(https://images.pexels.com/photos/912364/pexels-photo-912364.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    display: none;
+    box-shadow: 0px 5px 10px rgb(0, 5, 20);
+}
+
+#close_popup{
+    float: right;
+    transform: translateY(-7.8rem);
+    outline: transparent;
+    border: transparent;
+    cursor: pointer;
+    background-color: transparent;
+
+}
+
+.hide{
+    display: none;
+}
+
+header > div>input{
+    padding: 13px;
+    width: 30%;
+     outline: transparent;    
+}
+
+header > div > button{
+    padding: 11.5px;
+    transform: translate(-5px,1.5px);
+    background-color: #a3d2f1;
+    outline: none;
+    border-color: transparent;
+    cursor: pointer;   
+}
+
+.open_popup > div >  input{
+    padding: 13px;
+    outline: transparent;
+    width: 20%;
+}
+
+.open_popup > div > button{
+    padding: 12.5px;
+    transform: translate(-5px,0.5px);
+    background-color: #8bb7eb;
+    outline: none;
+    border-color: transparent;
+    cursor: pointer;
+}
+.city {
+    padding-left: 10%;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    margin-top: 3rem;
+    text-align: start;
+    box-shadow:0px  2px 8px rgb(22, 20, 20) ;
+    border: 1px solid #0c4e99;
+    font-weight: bold;
+    background-image: url(https://images.pexels.com/photos/3783385/pexels-photo-3783385.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940); 
+}
+

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather API</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css" />
+</head>
+
+<body>
+    <div id="popup" class="open_popup">
+        <h2>Search for a city's WEATHER conditions:</h2>
+        <button id="close_popup">❌</button>
+        <div>
+            <input type="text" placeholder="eg-Pune" id="location_feild" />
+            <button id="submit_button">Search</button>
+            <div class="city">
+                <h3>city-Pune</h3>
+                <h4>Temperature:-33 degree c</h4>
+                <h4>Wind Speed:-1.12</h4>
+                <h4>Maximum Temperature:-33 degree c</h4>
+                <h4>Minimum Temperature:-33 degree c</h4>
+                <h4>Sky Condition:-scatterd clouds</h4>
+            </div>
+        </div>
+    </div>
+    <header id="header">
+        <span><b>Weather Dashboard</b></span>
+        <div>
+            <input type="text" placeholder="place or country..." id="search_feild" />
+            <button id="search_button">🔍</button>
+        </div>
+    </header>
+    <section id="parent-container">
+        <div id="default">
+        </div>
+        <div id="seond_default">
+
+        </div>
+    </section>
+    <script src="./index.js"></script>
+</body>
+
+</html>
